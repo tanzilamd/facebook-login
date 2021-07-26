@@ -8,15 +8,22 @@ body {
     align-items: center;
     height: 100%;
 }
+.align-center{
+    display: flex;
+    align-items: center;
+}
 .container{
     border: ;
-    min-height: 100px;
-}
-.content {
     
 }
+.content {
+    height: 100%;
+    padding: auto 0;
+    line-height: 1000px;
+}
 .content img{
-    height: 100px;
+    height: 50px;
+    margin-bottom: 15px;
 }
 .content p{
     font-size: 28px;
@@ -65,23 +72,34 @@ input:focus {
 }
 .login-form form > a{
     margin-top: 15px;
-    display: block;
+    height: 35px;
+    width: 100%;
+    display: inline-block;
     text-decoration: none;
     color: var(--brand1);
     font-size: 16px;
     position: relative;
+    
+}
+.login-form form > a:hover {
+    text-decoration: underline;
+    
 }
 .login-form form > a::after{
-    height: 10px;
+    position: absolute;
+    height: 1px;
     content: "";
-    width: 60%;
+    width: 100%;
     bottom:0;
     left: 0;
-    background-color: red;
-    color: red;
+    background-color: #DADDE1;
+    color: blue;
 
 }
 footer{
     text-align: center;
     margin-top: 20px;
+}
+footer a:hover {
+    text-decoration: underline !important;
 }

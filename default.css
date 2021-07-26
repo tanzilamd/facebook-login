@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'helvetica';
+}
 :root {
     --bg:#F0F2F5;
     --brand1: #166FE5;
@@ -10,6 +13,14 @@
     --black:#1C1E21;
     --b:1px solid blue;
     --outline: #1877F2;   
+}
+@font-face {
+    font-family: 'helvetica';
+    src: url(./fonts/Helvetica.ttf);
+}
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url(./fonts/Helvetica-Bold.ttf);
 }
 .container{
     width: 992px;
