@@ -51,6 +51,7 @@ input{
 }
 input:focus {
     border: 1px solid #1877F2;
+    outline: none;
 }
 #login-btn {
     background-color: var(--brand1);
