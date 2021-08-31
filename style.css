@@ -50,7 +50,7 @@ input{
     font-size: 16px;
 }
 input:focus {
-    outline:  solid var(--brand1);
+    border: 1px solid #1877F2;
 }
 #login-btn {
     background-color: var(--brand1);
